@@ -1,6 +1,7 @@
 enum actor_state {
 	idle,
-	moving
+	moving,
+	booping
 }
 
 enum facing {
