@@ -15,6 +15,10 @@ bb_top = -7
 bb_bottom = 0;
 bb_left = -5;
 bb_right = 5;
+int_x = floor(x);
+int_y = floor(y);
 
 walls_layer = layer_get_id("Walls");
 walls_tilemap = layer_tilemap_get_id(walls_layer);
+
+camera_set_update_script(view_camera[0], camera_follow_player);

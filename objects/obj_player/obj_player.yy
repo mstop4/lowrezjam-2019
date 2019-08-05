@@ -96,8 +96,22 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-1.5",
+            "value": "-1.75",
             "varName": "jump_speed",
+            "varType": 0
+        },
+        {
+            "id": "205104e9-9747-45bf-ad76-1b4d252393c6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1.75",
+            "varName": "max_jump_speed",
             "varType": 0
         },
         {
@@ -110,7 +124,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1.5",
+            "value": "1",
             "varName": "max_fall_speed",
             "varType": 0
         },

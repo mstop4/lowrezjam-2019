@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "7c1d2cfb-e086-4531-85b9-e4778e0749a8",
+            "Value": {
+                "id": "8a973691-3426-48ba-bc7a-9165749e1058",
+                "resourcePath": "scripts\\camera_follow_player\\camera_follow_player.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7c63a20f-4904-403c-8430-4d3d61f92c68",
             "Value": {
                 "id": "d3e80d87-ff0d-48a0-bb16-f2a9c83c657d",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "94effe75-9fbc-4686-982d-4024e56b6abe",
+            "Value": {
+                "id": "93c7123c-171e-464b-ab7c-1eed5b5ea59b",
+                "resourcePath": "scripts\\floor_epsilon\\floor_epsilon.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "998708d5-f701-4071-bc39-8c03a3a578dc",
             "Value": {
                 "id": "c02c1d25-be27-439d-b142-971c29c7a40c",
@@ -188,6 +204,14 @@
                 "id": "1553eb4b-a1f1-47b2-bbb2-85c884573738",
                 "resourcePath": "views\\9a9515cf-07e0-4a0c-b6e5-8eff69a1bc90.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9b1a1e43-89b4-4385-9aed-f17175d8a424",
+            "Value": {
+                "id": "0bdaefa3-ee48-4ebd-9a04-6ce9b8db0d93",
+                "resourcePath": "scripts\\ceil_epsilon\\ceil_epsilon.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -328,7 +352,10 @@
         }
     ],
     "script_order": [
-        "b8999f17-7338-4074-9093-ab6a0955e557"
+        "b8999f17-7338-4074-9093-ab6a0955e557",
+        "7c1d2cfb-e086-4531-85b9-e4778e0749a8",
+        "9b1a1e43-89b4-4385-9aed-f17175d8a424",
+        "94effe75-9fbc-4686-982d-4024e56b6abe"
     ],
     "tutorial": ""
 }
