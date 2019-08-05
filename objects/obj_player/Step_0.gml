@@ -34,7 +34,7 @@ if (_h_input != 0) {
 				_top_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right + i, y + bb_top);
 				_bottom_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right + i, y + bb_bottom);
 				
-				if (tile_get_index(_top_tile) != 0 && tile_get_index(_bottom_tile) != 0) {
+				if (tile_get_index(_top_tile) != 0 || tile_get_index(_bottom_tile) != 0) {
 					x = ceil(x + (i-1));
 					break;
 				}
@@ -56,7 +56,7 @@ if (_h_input != 0) {
 				_top_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right - i, y + bb_top);
 				_bottom_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right - i, y + bb_bottom);
 				
-				if (tile_get_index(_top_tile) != 0 && tile_get_index(_bottom_tile) != 0) {
+				if (tile_get_index(_top_tile) != 0 || tile_get_index(_bottom_tile) != 0) {
 					x = floor(x - (i+1));
 					break;
 				}
@@ -102,11 +102,11 @@ if (yspeed < 0) {
 	
 	else {
 		y = yprevious;
-		for (var i=0; i<yspeed; i+=0.1) {
+		for (var i=0; i<yspeed; i+=grav) {
 			_left_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_left, y + bb_top - i);
 			_right_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right, y + bb_top - i);
 				
-			if (tile_get_index(_left_tile) != 0 && tile_get_index(_right_tile) != 0) {
+			if (tile_get_index(_left_tile) != 0 || tile_get_index(_right_tile) != 0) {
 				y = floor(y - (i+1));
 				break;
 			}
@@ -125,11 +125,11 @@ else if (yspeed > 0) {
 	}
 	
 	else {
-		for (var i=0; i<yspeed; i+=0.1) {
+		for (var i=0; i<yspeed; i+=grav) {
 			_left_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_left, y + bb_bottom + i);
 			_right_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right, y + bb_bottom + i);
 				
-			if (tile_get_index(_left_tile) != 0 && tile_get_index(_right_tile) != 0) {
+			if (tile_get_index(_left_tile) != 0 || tile_get_index(_right_tile) != 0) {
 				y = ceil(y + (i-1));
 				break;
 			}
