@@ -77,6 +77,48 @@
             "varType": 0
         },
         {
+            "id": "1f446f58-4ec0-487b-bb88-b8b0813706b3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1.5",
+            "varName": "jump_speed",
+            "varType": 0
+        },
+        {
+            "id": "34a5ada7-7161-4f5c-8560-a645bab9391b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1.5",
+            "varName": "max_fall_speed",
+            "varType": 0
+        },
+        {
+            "id": "915f2fe8-b499-491e-abab-b2b98efdde3e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.05",
+            "varName": "grav",
+            "varType": 0
+        },
+        {
             "id": "90d15a85-f103-44af-834a-175e83128740",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -142,7 +184,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "vk_space",
+            "value": "ord(\"L\")",
             "varName": "key_boop",
             "varType": 4
         }

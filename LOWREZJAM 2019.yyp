@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "12b196d6-a741-42e3-8f17-42f90c147c20",
+            "Value": {
+                "id": "726cc936-86f6-4994-8617-952d8c687c7a",
+                "resourcePath": "sprites\\spr_player_move_left\\spr_player_move_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1381ff9a-5f3e-498f-b8f0-0242009fda8b",
             "Value": {
                 "id": "5e41455a-4fb9-4a77-bb51-50412d03282d",
@@ -55,18 +63,10 @@
             }
         },
         {
-            "Key": "25957c1b-d010-4514-a6bf-7c9818897406",
+            "Key": "34a8b687-31c6-497d-be4c-a47379a49e12",
             "Value": {
-                "id": "d081f68d-01fe-468a-8966-c954c18ed58f",
-                "resourcePath": "sprites\\spr_player_idle_left\\spr_player_idle_left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "37133ea9-140b-4eea-b7b0-c173d63062ef",
-            "Value": {
-                "id": "bc890143-d09f-44cf-a631-c25f244aaf5c",
-                "resourcePath": "sprites\\spr_player_move_left\\spr_player_move_left.yy",
+                "id": "52767fea-329d-406c-a631-204bb92c16b1",
+                "resourcePath": "sprites\\spr_player_boop_left\\spr_player_boop_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "47bfb134-bd8d-4e3d-bf17-b73de1bc2a7d",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7253a5b2-f4fe-41b1-a0cf-63b9d27dfbf4",
+            "Value": {
+                "id": "b12e7071-e701-461c-aa3e-869bd9871439",
+                "resourcePath": "sprites\\spr_player_idle_left\\spr_player_idle_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -236,14 +244,6 @@
                 "id": "3025a872-cd03-4555-9175-9ce061c7be0c",
                 "resourcePath": "views\\c46c136f-403e-410a-84e5-c00de2dd3e79.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "cabbf526-67ba-4173-b8fa-31444bd860aa",
-            "Value": {
-                "id": "dffddc57-a057-4bda-ae93-0e7746d2025e",
-                "resourcePath": "sprites\\spr_player_boop_left\\spr_player_boop_left.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
