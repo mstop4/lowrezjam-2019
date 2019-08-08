@@ -139,13 +139,6 @@ if (keyboard_check_pressed(key_up) && on_ground) {
 if (keyboard_check_pressed(key_boop) && char_state != actor_state.booping) {
 	char_state = actor_state.booping;
 	image_index = 0;
-	if (my_facing == facing.right) {
-		instance_create_layer(x+4, y-4, "FG_Effects", obj_heart);
-	}
-	else {
-		var _h = instance_create_layer(x-4, y-4, layer, obj_heart);
-		_h.wiggle_x *= -1;
-	}
 }
 
 #endregion
