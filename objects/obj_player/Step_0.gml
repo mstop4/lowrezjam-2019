@@ -1,13 +1,11 @@
-#macro COL_PRECISION 0.0001
-
 #region Movement
 var _h_input = keyboard_check(key_right) - keyboard_check(key_left);
 
 if (_h_input != 0) {
 	var _top_tile, _bottom_tile;
 	
-	if (my_state != actor_state.booping) {
-		my_state = actor_state.moving;
+	if (char_state != actor_state.booping) {
+		char_state = actor_state.moving;
 	}
 	
 	if (_h_input == 1) {
@@ -25,7 +23,7 @@ if (_h_input != 0) {
 				_bottom_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right + i, y + bb_bottom);
 				
 				if (tile_get_index(_top_tile) != 0 || tile_get_index(_bottom_tile) != 0) {
-					x = ceil_epsilon(x + (i-1), COL_PRECISION);
+					x = round(x + (i-1));
 					break;
 				}
 			}
@@ -47,7 +45,7 @@ if (_h_input != 0) {
 				_bottom_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right - i, y + bb_bottom);
 				
 				if (tile_get_index(_top_tile) != 0 || tile_get_index(_bottom_tile) != 0) {
-					x = floor_epsilon(x - (i+1), COL_PRECISION);
+					x = round(x - (i+1));
 					break;
 				}
 			}
@@ -56,8 +54,8 @@ if (_h_input != 0) {
 }
 
 else {
-	if (my_state != actor_state.booping) {
-		my_state = actor_state.idle;
+	if (char_state != actor_state.booping) {
+		char_state = actor_state.idle;
 	}
 }
 
@@ -96,7 +94,7 @@ if (yspeed < 0) {
 			_right_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right, y + bb_top - i);
 				
 			if (tile_get_index(_left_tile) != 0 || tile_get_index(_right_tile) != 0) {
-				y = floor_epsilon(y - (i+1), COL_PRECISION);
+				y = round(y - (i+1));
 				break;
 			}
 		}
@@ -119,8 +117,7 @@ else if (yspeed > 0) {
 			_right_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_right, y + bb_bottom + i);
 				
 			if (tile_get_index(_left_tile) != 0 || tile_get_index(_right_tile) != 0) {
-				var _z = y + (i-1);
-				y = ceil_epsilon(_z, COL_PRECISION);
+				y = round(y + (i-1));
 				break;
 			}
 		}
@@ -139,11 +136,11 @@ if (keyboard_check_pressed(key_up) && on_ground) {
 
 #region Actions
 
-if (keyboard_check_pressed(key_boop) && my_state != actor_state.booping) {
-	my_state = actor_state.booping;
+if (keyboard_check_pressed(key_boop) && char_state != actor_state.booping) {
+	char_state = actor_state.booping;
 	image_index = 0;
 	if (my_facing == facing.right) {
-		instance_create_layer(x+4, y-4, layer, obj_heart);
+		instance_create_layer(x+4, y-4, "FG_Effects", obj_heart);
 	}
 	else {
 		var _h = instance_create_layer(x-4, y-4, layer, obj_heart);

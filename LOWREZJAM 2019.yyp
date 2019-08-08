@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "415f59e5-79c2-44c3-8a3b-5ffd754a96e2",
+            "Value": {
+                "id": "c1e48464-e566-457b-b54b-5ad97be97ccb",
+                "resourcePath": "sprites\\spr_player_ascend_left\\spr_player_ascend_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45bd67db-2482-48e3-a155-8ed664e5eb42",
             "Value": {
                 "id": "ba620ed7-a018-4e6c-8f27-e7b866687bfb",
@@ -108,6 +116,14 @@
                 "id": "47bfb134-bd8d-4e3d-bf17-b73de1bc2a7d",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6ea5d664-2d83-428b-adad-009d9c16926c",
+            "Value": {
+                "id": "54727c6e-9828-4f07-936a-8e3c8012c004",
+                "resourcePath": "sprites\\spr_enemy_booped_right\\spr_enemy_booped_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -135,6 +151,14 @@
             }
         },
         {
+            "Key": "78d319bf-a9f1-4ed7-bbfe-329d80b80df4",
+            "Value": {
+                "id": "5db83763-1756-4190-8905-5a7c94ded1bb",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c1d2cfb-e086-4531-85b9-e4778e0749a8",
             "Value": {
                 "id": "8a973691-3426-48ba-bc7a-9165749e1058",
@@ -156,6 +180,14 @@
                 "id": "9cc7acdc-d78b-41a9-b723-9f3f27a50d38",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "85369b74-f2f2-4dd6-880c-72d001d27665",
+            "Value": {
+                "id": "a51439d2-24ef-474d-8c8e-f71a2422b2a3",
+                "resourcePath": "sprites\\spr_player_fall_right\\spr_player_fall_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,6 +295,14 @@
             }
         },
         {
+            "Key": "bc0348c2-1a42-40e4-92d4-b7d19afc4785",
+            "Value": {
+                "id": "746c8395-3bd3-4ae3-a28b-1108b32484a2",
+                "resourcePath": "sprites\\spr_uwu\\spr_uwu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c46c136f-403e-410a-84e5-c00de2dd3e79",
             "Value": {
                 "id": "3025a872-cd03-4555-9175-9ce061c7be0c",
@@ -287,11 +327,35 @@
             }
         },
         {
+            "Key": "d8d9fff6-16a2-47ea-8205-bfd95220ad59",
+            "Value": {
+                "id": "0304da05-e24a-4bd8-b413-e3a67c3f1101",
+                "resourcePath": "sprites\\spr_player_ascend_right\\spr_player_ascend_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "da955dde-8c5c-4893-a553-d2604ea5f35e",
             "Value": {
                 "id": "7becb0fb-83f7-414e-9a0d-e1062585ddde",
                 "resourcePath": "views\\da955dde-8c5c-4893-a553-d2604ea5f35e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dbfb42c3-2803-412f-834d-1e4931a9baa5",
+            "Value": {
+                "id": "5ab03b94-3d58-4f75-a10e-0d7d42e06b46",
+                "resourcePath": "sprites\\spr_enemy_move_left\\spr_enemy_move_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df47cb25-ae59-4a86-ba7d-334ac65b5f97",
+            "Value": {
+                "id": "302131eb-2f56-434a-8f16-63b7d2a10cf2",
+                "resourcePath": "sprites\\spr_enemy_booped_left\\spr_enemy_booped_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,6 +380,14 @@
                 "id": "41d13879-b1a1-4066-aff9-2c5e14a84def",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
+            "Key": "e83a83d9-212d-413e-a87b-61f75d542e33",
+            "Value": {
+                "id": "6ede19b9-2fc8-4f0d-8e11-9eb52dd9a10b",
+                "resourcePath": "sprites\\spr_player_fall_left\\spr_player_fall_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -348,6 +420,14 @@
                 "id": "122e0d52-7cb2-48a2-b44a-47756631d384",
                 "resourcePath": "views\\f7e4e507-d398-4923-8af0-dce5ccf886f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ff35943d-baba-4e1b-b0ef-3fc2a35f2d60",
+            "Value": {
+                "id": "a2be5d1c-dc48-4b1c-a589-c9103a6c449a",
+                "resourcePath": "sprites\\spr_enemy_move_right\\spr_enemy_move_right.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],

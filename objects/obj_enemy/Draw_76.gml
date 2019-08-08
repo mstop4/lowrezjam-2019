@@ -1,0 +1,1 @@
+sprite_state = char_state;
