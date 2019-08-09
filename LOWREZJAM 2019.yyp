@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "a141dd46-8622-4325-903a-fbfd67c951b9",
+            "Value": {
+                "id": "12116152-b6ca-46ee-9b4c-7de4eaad374e",
+                "resourcePath": "scripts\/boop_hitbox_track_owner\/boop_hitbox_track_owner.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a711af15-82f9-4d08-b5a7-eaac6a0ff6d2",
             "Value": {
                 "id": "966392de-60f8-4af1-871a-1415ca2be6ac",
@@ -415,6 +423,22 @@
             }
         },
         {
+            "Key": "eed44d29-be8e-4f4f-a5ca-a31c057255a1",
+            "Value": {
+                "id": "413ca6f8-7971-4283-bcda-95eeb49041db",
+                "resourcePath": "sprites\/spr_boop_hitbox\/spr_boop_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef22a736-1f9c-4687-9274-1cb607c976ef",
+            "Value": {
+                "id": "de158bce-43fd-486d-817e-ceb576028191",
+                "resourcePath": "objects\/obj_boop\/obj_boop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "effb44ef-56b6-4cc0-be05-5b8e2d997797",
             "Value": {
                 "id": "4ec90a1d-61be-4975-8974-0a367e69bc84",
@@ -451,7 +475,8 @@
         "b8999f17-7338-4074-9093-ab6a0955e557",
         "7c1d2cfb-e086-4531-85b9-e4778e0749a8",
         "9b1a1e43-89b4-4385-9aed-f17175d8a424",
-        "94effe75-9fbc-4686-982d-4024e56b6abe"
+        "94effe75-9fbc-4686-982d-4024e56b6abe",
+        "a141dd46-8622-4325-903a-fbfd67c951b9"
     ],
     "tutorial": ""
 }

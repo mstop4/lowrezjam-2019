@@ -139,6 +139,9 @@ if (keyboard_check_pressed(key_up) && on_ground) {
 if (keyboard_check_pressed(key_boop) && char_state != actor_state.booping) {
 	char_state = actor_state.booping;
 	image_index = 0;
+	instance_activate_object(boop_hitbox);
+	with (boop_hitbox) boop_hitbox_track_owner();
+	boop_hitbox.alarm[0] = boop_hitbox.active_frames;
 }
 
 #endregion

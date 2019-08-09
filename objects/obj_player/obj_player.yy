@@ -221,6 +221,34 @@
             "value": "ord(\"L\")",
             "varName": "key_boop",
             "varType": 4
+        },
+        {
+            "id": "b0863071-4815-4c40-86ff-c6be8188c706",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "boop_x_offset",
+            "varType": 0
+        },
+        {
+            "id": "35f327f5-83f4-4101-920b-5c309290955d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-4",
+            "varName": "boop_y_offset",
+            "varType": 0
         }
     ],
     "solid": false,
