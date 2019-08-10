@@ -1,18 +1,33 @@
-if (!on_ground) {
-	if (char_state != actor_state.booping) {
-		if (yspeed < 0) {
-			sprite_state = actor_state.ascending;
-		}
-		else {
-			sprite_state = actor_state.falling;
-		}
-	}
-	
-	else {
-		sprite_state = actor_state.booping;
+if (my_actor_state == actor_state.blbl) {
+	switch (my_blbl_stage) {
+		case 0:
+			my_sprite_state = actor_state.blbl_begin;
+			break;
+		case 1:
+			my_sprite_state = actor_state.blbl_loop;
+			break;
+		case 2:
+			my_sprite_state = actor_state.blbl_end;
+			break;
+		default:
+			my_sprite_state = actor_state.blbl_loop;
+			break;
 	}
 }
-
+	
+else if (my_actor_state == actor_state.booping) {
+	my_sprite_state = actor_state.booping;
+}
+	
 else {
-	sprite_state = char_state;
+	if (!on_ground) {
+		if (yspeed < 0) {
+			my_sprite_state = actor_state.ascending;
+		}
+		
+		else {
+			my_sprite_state = actor_state.falling;
+		}
+	}
+	my_sprite_state = my_actor_state;	
 }

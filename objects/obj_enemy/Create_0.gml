@@ -1,6 +1,6 @@
 my_facing = facing.right;
-char_state = actor_state.moving;
-sprite_state = actor_state.moving;
+my_actor_state = actor_state.moving;
+my_sprite_state = actor_state.moving;
 
 my_sprite[actor_state.idle, facing.right] = spr_player_idle_right;
 my_sprite[actor_state.idle, facing.left] = spr_player_idle_left;

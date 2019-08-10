@@ -1,1 +1,1 @@
-sprite_state = char_state;
+my_sprite_state = my_actor_state;

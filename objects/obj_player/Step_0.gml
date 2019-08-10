@@ -4,8 +4,8 @@ var _h_input = keyboard_check(key_right) - keyboard_check(key_left);
 if (_h_input != 0) {
 	var _top_tile, _bottom_tile;
 	
-	if (char_state != actor_state.booping) {
-		char_state = actor_state.moving;
+	if (my_actor_state != actor_state.booping && my_actor_state != actor_state.blbl) {
+		my_actor_state = actor_state.moving;
 	}
 	
 	if (_h_input == 1) {
@@ -54,8 +54,8 @@ if (_h_input != 0) {
 }
 
 else {
-	if (char_state != actor_state.booping) {
-		char_state = actor_state.idle;
+	if (my_actor_state != actor_state.booping && my_actor_state != actor_state.blbl) {
+		my_actor_state = actor_state.idle;
 	}
 }
 
@@ -135,13 +135,14 @@ if (keyboard_check_pressed(key_up) && on_ground) {
 #endregion
 
 #region Actions
-
-if (keyboard_check_pressed(key_boop) && char_state != actor_state.booping) {
-	char_state = actor_state.booping;
-	image_index = 0;
-	instance_activate_object(boop_hitbox);
-	with (boop_hitbox) boop_hitbox_track_owner();
-	boop_hitbox.alarm[0] = boop_hitbox.active_frames;
+if (my_actor_state != actor_state.booping && my_actor_state != actor_state.blbl) {
+	if (keyboard_check_pressed(key_boop)) {
+		activate_boop(boop_hitbox);
+	}
+	
+	else if (keyboard_check_pressed(key_blbl)) {
+		activate_blbl();
+	}
 }
 
 #endregion

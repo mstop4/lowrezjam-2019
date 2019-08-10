@@ -53,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "08b57a30-6536-4562-8254-8abd3c4fd98e",
+            "id": "77eaa653-08cd-43f9-b269-d6f1b9ecdbce",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "20",
             "varName": "active_frames",
             "varType": 1
         }

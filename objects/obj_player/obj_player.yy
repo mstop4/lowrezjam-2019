@@ -153,6 +153,48 @@
             "varType": 0
         },
         {
+            "id": "b0863071-4815-4c40-86ff-c6be8188c706",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "boop_x_offset",
+            "varType": 0
+        },
+        {
+            "id": "35f327f5-83f4-4101-920b-5c309290955d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-4",
+            "varName": "boop_y_offset",
+            "varType": 0
+        },
+        {
+            "id": "5bfcdc8a-6d1f-423a-813c-599280bf7b1e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "blbl_cycles",
+            "varType": 1
+        },
+        {
             "id": "90d15a85-f103-44af-834a-175e83128740",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -223,7 +265,7 @@
             "varType": 4
         },
         {
-            "id": "b0863071-4815-4c40-86ff-c6be8188c706",
+            "id": "a825a651-ba39-421b-a9ee-4567a43b5200",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -232,23 +274,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
-            "varName": "boop_x_offset",
-            "varType": 0
-        },
-        {
-            "id": "35f327f5-83f4-4101-920b-5c309290955d",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "-4",
-            "varName": "boop_y_offset",
-            "varType": 0
+            "value": "ord(\"K\")",
+            "varName": "key_blbl",
+            "varType": 4
         }
     ],
     "solid": false,
