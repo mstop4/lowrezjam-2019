@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4afff37a-d31f-4415-9aec-0f7ef5b82395",
+            "Value": {
+                "id": "7c1a7324-7384-4507-94aa-723c587214a8",
+                "resourcePath": "sprites\\spr_enemy_stunned_left\\spr_enemy_stunned_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c3e5524-9050-4f4a-818e-d5fe45c38a9b",
             "Value": {
                 "id": "4f25c0ff-d193-4743-9e70-7dd88153d1aa",
@@ -379,6 +387,14 @@
             "Value": {
                 "id": "18348008-0857-49b5-8fc7-b3c7d0dd3f55",
                 "resourcePath": "sprites\/spr_player_idle_right\/spr_player_idle_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba499c83-b7ae-4eb2-9b37-d97974824174",
+            "Value": {
+                "id": "3cb2157f-3f04-4da3-aa1c-fa15fcfad75b",
+                "resourcePath": "sprites\\spr_enemy_stunned_right\\spr_enemy_stunned_right.yy",
                 "resourceType": "GMSprite"
             }
         },
