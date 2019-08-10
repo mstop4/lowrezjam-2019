@@ -15,6 +15,7 @@ else if (my_actor_state == actor_state.blbl) {
 			break;
 		case 2:
 			my_actor_state = actor_state.idle;
+			instance_deactivate_object(blbl_hitbox);
 			break;
 	}
 }

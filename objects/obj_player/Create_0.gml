@@ -37,3 +37,5 @@ walls_tilemap = layer_tilemap_get_id(walls_layer);
 camera_set_update_script(view_camera[0], camera_follow_player);
 boop_hitbox = instance_create_layer(x, y, "FG_Effects", obj_boop);
 boop_hitbox.owner = id;
+blbl_hitbox = instance_create_layer(x, y, "FG_Effects", obj_blbl);
+blbl_hitbox.owner = id;

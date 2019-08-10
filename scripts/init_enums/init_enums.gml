@@ -4,6 +4,7 @@ enum actor_state {
 	booping,
 	blbl,
 	booped,
+	stunned,
 	ascending,
 	falling,
 	blbl_begin,

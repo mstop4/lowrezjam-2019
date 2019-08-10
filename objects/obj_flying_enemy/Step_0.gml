@@ -28,7 +28,7 @@ if (my_actor_state == actor_state.moving) {
 	}
 }
 
-else if (my_actor_state == actor_state.booped) {
+else if (my_actor_state != actor_state.booped && my_actor_state != actor_state.stunned) {
 	 var _left_tile, _right_tile;
 
 	_left_tile = tilemap_get_at_pixel(walls_tilemap, x + bb_left, y + bb_bottom + 1);

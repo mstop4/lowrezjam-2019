@@ -141,7 +141,7 @@ if (my_actor_state != actor_state.booping && my_actor_state != actor_state.blbl)
 	}
 	
 	else if (keyboard_check_pressed(key_blbl)) {
-		activate_blbl();
+		activate_blbl(blbl_hitbox);
 	}
 }
 

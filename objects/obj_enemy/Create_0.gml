@@ -14,6 +14,8 @@ my_sprite[actor_state.falling, facing.right] = spr_player_fall_right;
 my_sprite[actor_state.falling, facing.left] = spr_player_fall_left;
 my_sprite[actor_state.booped, facing.right] = spr_enemy_booped_right;
 my_sprite[actor_state.booped, facing.left] = spr_enemy_booped_left;
+my_sprite[actor_state.stunned, facing.left] = spr_enemy_stunned_right;
+my_sprite[actor_state.stunned, facing.left] = spr_enemy_stunned_left;
 
 bb_top = -7
 bb_bottom = 0;
