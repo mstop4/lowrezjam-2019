@@ -7,5 +7,5 @@ my_blbl_cycles = 0;
 
 instance_activate_object(_blbl);
 with (_blbl) {
-	boop_hitbox_track_owner();
+	blbl_hitbox_track_owner();
 }

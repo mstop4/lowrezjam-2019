@@ -181,6 +181,34 @@
             "varType": 0
         },
         {
+            "id": "5284f82e-c714-4270-b48a-66a1ae4e9790",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "8",
+            "varName": "blbl_x_offset",
+            "varType": 0
+        },
+        {
+            "id": "b9a61467-e6c1-41be-afa4-a22cdfc379f6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-2",
+            "varName": "blbl_y_offset",
+            "varType": 0
+        },
+        {
             "id": "5bfcdc8a-6d1f-423a-813c-599280bf7b1e",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

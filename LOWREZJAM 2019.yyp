@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "27cc5c5a-bd4d-4a04-abfc-5c40637320fc",
+            "Value": {
+                "id": "fdd4e5e8-fb35-4097-919c-5cb87c6a1809",
+                "resourcePath": "objects\\obj_gasp\\obj_gasp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "32bfe3b8-9a5f-443d-9084-7ca2a0ae01b9",
             "Value": {
                 "id": "45e84165-8b14-4838-9c88-8978c734efa3",
@@ -116,6 +124,14 @@
                 "id": "8b2dd4b3-0be0-4692-8d56-af7eb79c7b58",
                 "resourcePath": "views\/3dcc41ba-e8fd-4ec1-8e09-c88fb6c007ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ef0965f-e074-43e9-8ef1-ee566c6dd93c",
+            "Value": {
+                "id": "5b31e60c-f23d-4925-bc95-75de1b01b3b7",
+                "resourcePath": "sprites\\spr_gasp\\spr_gasp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "f177ac7c-2674-443b-b5f0-af5c7d1cea9b",
+            "Value": {
+                "id": "7058bedb-b679-4f5d-8d87-8a1a1ee01aa4",
+                "resourcePath": "scripts\\blbl_hitbox_track_owner\\blbl_hitbox_track_owner.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "ee63fd13-768e-4e52-bfa2-a836e1ab9e06",
@@ -573,6 +597,7 @@
         "9b1a1e43-89b4-4385-9aed-f17175d8a424",
         "94effe75-9fbc-4686-982d-4024e56b6abe",
         "a141dd46-8622-4325-903a-fbfd67c951b9",
+        "f177ac7c-2674-443b-b5f0-af5c7d1cea9b",
         "32bfe3b8-9a5f-443d-9084-7ca2a0ae01b9",
         "968b2e54-a36f-4c3d-90c3-a6def1ae0cd9"
     ],
