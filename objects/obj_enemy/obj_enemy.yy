@@ -95,6 +95,20 @@
             "value": "300",
             "varName": "stun_time",
             "varType": 1
+        },
+        {
+            "id": "bc1c18f1-5775-4c7e-a3ab-9627f07eaa40",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "my_value",
+            "varType": 1
         }
     ],
     "solid": false,

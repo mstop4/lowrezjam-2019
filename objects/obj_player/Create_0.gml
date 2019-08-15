@@ -25,6 +25,7 @@ my_facing = facing.right;
 
 yspeed = 0;
 on_ground = true;
+my_multipler = 1;
 
 bb_top = -7
 bb_bottom = 0;

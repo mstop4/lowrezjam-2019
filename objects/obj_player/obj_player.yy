@@ -63,6 +63,16 @@
             "enumb": 76,
             "eventtype": 8,
             "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
+        },
+        {
+            "id": "c04cbaa0-191d-4633-9e25-61ca5ce94f95",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -220,6 +230,20 @@
             "resourceFilter": 1023,
             "value": "4",
             "varName": "blbl_cycles",
+            "varType": 1
+        },
+        {
+            "id": "ed1a9391-a133-4565-95fe-55d7b26f20f8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "180",
+            "varName": "multiplier_cooldown",
             "varType": 1
         },
         {

@@ -6,4 +6,9 @@ if (my_actor_state != actor_state.booped) {
 	if (other.owner.my_facing == facing.left) {
 		_h.wiggle_x *= -1;
 	}
+	var _points = my_value * other.owner.my_multipler;
+	_h.my_value = _points;
+	score += _points;
+	other.owner.my_multipler++;
+	other.owner.alarm[0] = other.owner.multiplier_cooldown;
 }
