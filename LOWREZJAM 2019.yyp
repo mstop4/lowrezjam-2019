@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0ef5db15-af81-4248-a7a1-ab88f3cc1e3e",
+            "Value": {
+                "id": "9cfca16f-0699-4e55-9668-78be3e616326",
+                "resourcePath": "sounds\\snd_jump\\snd_jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0feb80b8-697e-4e6b-963f-64d307819e01",
             "Value": {
                 "id": "132844a4-0c3b-4e50-a69f-94d21ea6806c",
@@ -263,6 +271,14 @@
             }
         },
         {
+            "Key": "759ae777-1c03-4fac-84e5-058f32c206cb",
+            "Value": {
+                "id": "2997cc6f-7a70-439c-9f1e-13be3d3878c3",
+                "resourcePath": "sounds\\snd_boop\\snd_boop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "2812580b-d772-4c0c-bd7f-59d21df242bf",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "793ddf1b-3914-4d70-8ec1-9a1875ba0fa2",
+            "Value": {
+                "id": "41cd0fc1-3317-4ef7-9ada-c4c9d91fcd28",
+                "resourcePath": "sounds\\snd_booped\\snd_booped.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7c1d2cfb-e086-4531-85b9-e4778e0749a8",
             "Value": {
                 "id": "8a973691-3426-48ba-bc7a-9165749e1058",
@@ -300,6 +324,14 @@
                 "id": "d3e80d87-ff0d-48a0-bb16-f2a9c83c657d",
                 "resourcePath": "views\/7c63a20f-4904-403c-8430-4d3d61f92c68.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8232a41e-b03c-4f86-9ec2-a0da77e6e5bf",
+            "Value": {
+                "id": "fa4a37f2-8576-4a48-b3df-79375cc69d06",
+                "resourcePath": "sounds\\snd_blbl\\snd_blbl.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -524,6 +556,14 @@
                 "id": "746c8395-3bd3-4ae3-a28b-1108b32484a2",
                 "resourcePath": "sprites\/spr_uwu\/spr_uwu.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bed78eca-2315-49a4-b3f6-a9f92986fa77",
+            "Value": {
+                "id": "258705e1-f787-4fd2-92e8-6619944fba08",
+                "resourcePath": "sounds\\snd_gasp\\snd_gasp.yy",
+                "resourceType": "GMSound"
             }
         },
         {

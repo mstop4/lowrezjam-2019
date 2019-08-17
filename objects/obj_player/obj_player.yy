@@ -256,7 +256,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"W\")",
+            "value": "vk_up",
             "varName": "key_up",
             "varType": 4
         },
@@ -270,7 +270,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"S\")",
+            "value": "vk_down",
             "varName": "key_down",
             "varType": 4
         },
@@ -284,7 +284,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"A\")",
+            "value": "vk_left",
             "varName": "key_left",
             "varType": 4
         },
@@ -298,7 +298,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"D\")",
+            "value": "vk_right",
             "varName": "key_right",
             "varType": 4
         },
@@ -312,7 +312,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"L\")",
+            "value": "ord(\"Z\")",
             "varName": "key_boop",
             "varType": 4
         },
@@ -326,7 +326,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"K\")",
+            "value": "ord(\"X\")",
             "varName": "key_blbl",
             "varType": 4
         }

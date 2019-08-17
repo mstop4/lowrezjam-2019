@@ -130,6 +130,7 @@ else if (yspeed > 0) {
 if (keyboard_check_pressed(key_up) && on_ground) {
 	yspeed = jump_speed;
 	on_ground = false;
+	audio_play_sound(snd_jump, 50, false);
 }
 
 #endregion
