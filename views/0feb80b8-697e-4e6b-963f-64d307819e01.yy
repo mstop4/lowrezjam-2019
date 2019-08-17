@@ -9,10 +9,12 @@
         "6ea5d664-2d83-428b-adad-009d9c16926c",
         "df47cb25-ae59-4a86-ba7d-334ac65b5f97",
         "ba499c83-b7ae-4eb2-9b37-d97974824174",
-        "4afff37a-d31f-4415-9aec-0f7ef5b82395"
+        "4afff37a-d31f-4415-9aec-0f7ef5b82395",
+        "3cbf3e02-08a9-48d3-9750-bd3328fc3786",
+        "1e7e3045-7bce-453a-94c3-c7c23793608a"
     ],
     "filterType": "GMSprite",
-    "folderName": "Ground",
+    "folderName": "Walking",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

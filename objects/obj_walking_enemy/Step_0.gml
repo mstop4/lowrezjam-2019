@@ -38,6 +38,10 @@ if (_left_tile == 0 && _right_tile == 0) {
 }
 
 else {
-	if (my_actor_state != actor_state.booped && my_actor_state != actor_state.stunned) 
+	if (my_actor_state != actor_state.preparing &&
+		my_actor_state != actor_state.booped &&
+		my_actor_state != actor_state.stunned && 
+		my_actor_state != actor_state.booping) {
 		my_actor_state = actor_state.moving;
+	}
 }

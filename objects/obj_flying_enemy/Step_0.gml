@@ -1,5 +1,9 @@
 var _top_tile, _bottom_tile;
-if (my_actor_state == actor_state.idle) {
+
+if (my_actor_state != actor_state.preparing &&
+	my_actor_state != actor_state.booped &&
+	my_actor_state != actor_state.stunned && 
+	my_actor_state != actor_state.booping) {
 	my_actor_state = actor_state.moving;
 }
 

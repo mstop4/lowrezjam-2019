@@ -1,6 +1,7 @@
-if (my_actor_state != actor_state.booped) {
+if (my_actor_state != actor_state.booped && other.owner == obj_player.id) {
 	my_actor_state = actor_state.booped;
 	alarm[0] = -1;
+	alarm[1] = -1;
 	audio_play_sound(snd_booped, 50, false);
 	var _h = instance_create_layer(other.x, other.y, "FG_Effects", obj_heart);
 
