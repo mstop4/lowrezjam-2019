@@ -26,3 +26,6 @@ bb_right = 5;
 
 walls_layer = layer_get_id("Walls");
 walls_tilemap = layer_tilemap_get_id(walls_layer);
+
+boop_hitbox = instance_create_layer(x, y, "FG_Effects", obj_boop);
+boop_hitbox.owner = id;

@@ -1,0 +1,1 @@
+my_facing = facing.left;

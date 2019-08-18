@@ -45,16 +45,6 @@
             "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
         },
         {
-            "id": "d6dbcd22-5e4a-47cd-802d-0e592c0d5bb2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 64,
-            "eventtype": 8,
-            "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
-        },
-        {
             "id": "a0b5b3e7-4a8e-4f1a-a6f5-723103dc451a",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -71,6 +61,36 @@
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
+        },
+        {
+            "id": "0e38fe63-b539-4731-9234-bf4fe7087774",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "ef22a736-1f9c-4687-9274-1cb607c976ef",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
+        },
+        {
+            "id": "2983b427-a03a-4c3b-9b10-beb667bab5a8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
+        },
+        {
+            "id": "0651a518-ea4e-4f86-a510-6d0166081578",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
             "eventtype": 2,
             "m_owner": "e1d845f9-eb2e-4a06-82e1-24469dac343b"
         }
@@ -312,7 +332,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"Z\")",
+            "value": "ord(\"X\")",
             "varName": "key_boop",
             "varType": 4
         },
@@ -326,7 +346,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ord(\"X\")",
+            "value": "ord(\"C\")",
             "varName": "key_blbl",
             "varType": 4
         }

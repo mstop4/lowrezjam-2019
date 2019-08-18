@@ -14,14 +14,16 @@ my_sprite[actor_state.ascending, facing.right] = spr_player_ascend_right;
 my_sprite[actor_state.ascending, facing.left] = spr_player_ascend_left;
 my_sprite[actor_state.falling, facing.right] = spr_player_fall_right;
 my_sprite[actor_state.falling, facing.left] = spr_player_fall_left;
-my_sprite[actor_state.booped, facing.right] = spr_enemy_booped_right;
-my_sprite[actor_state.booped, facing.left] = spr_enemy_booped_left;
+my_sprite[actor_state.booped, facing.right] = spr_player_booped_right;
+my_sprite[actor_state.booped, facing.left] = spr_player_booped_left;
 
 my_actor_state = actor_state.idle;
 my_sprite_state = actor_state.idle;
 my_blbl_stage = 0;
 my_blbl_cycles = 0;
 my_facing = facing.right;
+is_invincible = false;
+invincible_t = 0;
 
 yspeed = 0;
 on_ground = true;
@@ -40,3 +42,5 @@ boop_hitbox = instance_create_layer(x, y, "FG_Effects", obj_boop);
 boop_hitbox.owner = id;
 blbl_hitbox = instance_create_layer(x, y, "FG_Effects", obj_blbl);
 blbl_hitbox.owner = id;
+
+obj_MCP.score_visible = true;

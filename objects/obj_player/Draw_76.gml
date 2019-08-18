@@ -18,6 +18,10 @@ if (my_actor_state == actor_state.blbl) {
 else if (my_actor_state == actor_state.booping) {
 	my_sprite_state = actor_state.booping;
 }
+
+else if (my_actor_state == actor_state.booped) {
+	my_sprite_state = actor_state.booped;
+}
 	
 else {
 	if (!on_ground) {

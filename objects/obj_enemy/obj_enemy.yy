@@ -139,6 +139,34 @@
             "value": "10",
             "varName": "my_value",
             "varType": 1
+        },
+        {
+            "id": "1c382e61-09ce-42a1-84ca-52fec3280fdf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "boop_x_offset",
+            "varType": 0
+        },
+        {
+            "id": "947325af-da89-412c-a5e2-bc5028a49120",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-4",
+            "varName": "boop_y_offset",
+            "varType": 0
         }
     ],
     "solid": false,
